@@ -1,0 +1,73 @@
+.youtube-container{
+	max-width:1500px;
+	width:90%;
+	margin:auto;
+}
+
+.topnav{
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.bigIframe{
+	width:100%;
+}
+
+.v-title{
+	font-size:.9rem;
+	line-height: 1.2em;
+	font-weight: bold;
+	color:#000;
+}
+
+.v-author, .v-views{
+	font-size: .85rem;
+	color:#464646;
+	display: block;
+}
+
+.v-img{
+	width:100%;
+}
+
+.columnE{
+    position: relative;
+}
+
+.v-minutes{
+	background:#000;
+	position: absolute;
+	right:0;
+	bottom:0;
+	padding:.1rem;
+	color:#fff;
+	font-size:.8rem;
+}
+
+.mv-description-row{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.mv-title,.mv-pdate,.mv-desc{
+	display: block;
+	font-size: .95rem;
+	color:#464646;
+
+}
+
+.searchbar{
+	width: 80% !important;
+}
+
+.btn-blue{
+	color:steelblue;
+	border:2px solid steelblue;
+	border-radius: 0px;
+	background:#fff;
+}
+
+@media(min-width:1200px){
+
+	.bigIframe{
+		min-height: 600px;
+	}
+}
