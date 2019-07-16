@@ -65,6 +65,12 @@
 	background:#fff;
 }
 
+.trans-btn{
+	background: transparent;
+	padding:0;
+	display: inline;
+}
+
 @media(min-width:1200px){
 
 	.bigIframe{
