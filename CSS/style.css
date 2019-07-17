@@ -55,7 +55,15 @@
 }
 
 .searchbar{
-	width: 80% !important;
+	width:80%;
+	padding:.4rem .8rem;
+	border:1px solid #e5e5e5;
+}
+
+.btn-search{
+	padding:.4rem .8rem;
+	border:1px solid #e5e5e5;
+	background: #eee
 }
 
 .btn-blue{
@@ -63,6 +71,7 @@
 	border:2px solid steelblue;
 	border-radius: 0px;
 	background:#fff;
+	padding:.4rem .8rem;
 }
 
 .trans-btn{
@@ -76,4 +85,52 @@
 	.bigIframe{
 		min-height: 600px;
 	}
+}
+
+
+
+/* FLEX CSS STARTS*/
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:.3rem 1rem;
+	border:1px solid #e5e5e5;
+
+}
+
+.navbar .col{
+}
+
+
+.logo{
+	max-width: 80px;
+}
+
+.fa-bars{
+	position: relative;
+	top:-15px;
+}
+
+.logo-area{
+   
+}
+
+.searchbar-area{
+	min-width: 600px;
+}
+
+.signin-area{
+
+}
+
+.signin-area .fa{
+   color:#464646;
+   padding-right: 1rem;
 }
