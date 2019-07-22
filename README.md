@@ -6,7 +6,7 @@ a replica of youtube
 [Micheals](https://github.com/MarvellousUbani)
 
 ### Link to the live Image-Video project:
-https://ashah15.github.io/Images-Videos/
+[Click Here](https://ashah15.github.io/Images-Videos/)
 
 
 #### Link to the Embedding video and image:
