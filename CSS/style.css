@@ -1,3 +1,14 @@
+body{
+	font-family: 'Lato',sans-serif;
+	margin:0;
+	padding: 0;
+
+}
+
+button{
+	cursor: pointer;
+}
+
 .youtube-container{
 	max-width:1500px;
 	width:90%;
@@ -27,10 +38,13 @@
 
 .v-img{
 	width:100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .columnE{
     position: relative;
+    height:80px;
 }
 
 .v-minutes{
@@ -47,11 +61,21 @@
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.mv-desc{
+	margin-top:1.5rem;
+}
+
+
 .mv-title,.mv-pdate,.mv-desc{
 	display: block;
 	font-size: .95rem;
 	color:#464646;
+}
 
+.mv-title{
+	font-size: 1.1rem;
+	font-weight: bold;
+	color:#000;
 }
 
 .searchbar{
@@ -74,11 +98,32 @@
 	padding:.4rem .8rem;
 }
 
+.btn-red{
+	background: red;
+	color:#fff;
+	padding:.6rem 1rem;
+	font-weight: bold;
+	border:none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 20px;
+    right: 0;hromc
+}
+
 .trans-btn{
 	background: transparent;
 	padding:0;
 	display: inline;
+	border:none;
+	color:#333;
+    padding-right: 1rem;
 }
+
+.trans-btn{
+	font-size: .9rem;
+}
+
+
 
 @media(min-width:1200px){
 
@@ -91,21 +136,21 @@
 
 /* FLEX CSS STARTS*/
 
-body{
-	margin:0;
-	padding: 0;
-}
+
 
 .navbar{
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
 	align-items: center;
 	padding:.3rem 1rem;
 	border:1px solid #e5e5e5;
+	margin-bottom: 2rem;
 
 }
 
 .navbar .col{
+
 }
 
 
@@ -122,9 +167,6 @@ body{
    
 }
 
-.searchbar-area{
-	min-width: 600px;
-}
 
 .signin-area{
 
@@ -133,4 +175,106 @@ body{
 .signin-area .fa{
    color:#464646;
    padding-right: 1rem;
+}
+
+.youtube-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.youtube-container .col{
+
+}
+
+.youtube-container .main-video-col{
+    width:75%;
+    padding:0 2rem;
+}
+
+.youtube-container .featured-videos-col{
+	flex:1;
+}
+
+.vid-title, .vid-views{
+	font-weight: normal;
+}
+
+.main-vid-title-row{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.contrib-col{
+	width:80%;
+}
+
+.sharebtn-col{
+	flex:1;
+}
+
+.main-vid-desc-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-end;
+}
+
+.main-vid-desc-row .author-photo{
+	width:10%
+}
+
+.main-vid-desc-row .author-desc{
+	width:60%;
+}
+
+.main-vid-desc-row .subscribe-col{
+	width:30%;
+	position: relative;
+}
+
+
+
+
+@media(min-width:1200px){
+	.searchbar-area{
+		min-width: 600px;
+	}
+}
+
+.featured-videos-col .row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.autoplay{
+	color: #656161;
+	font-size: .75rem;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+
+.autoplay-row{
+	margin-bottom: 1rem;
+}
+
+.featured-video-col{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:1rem;
+}
+
+.featured-video-col .col{
+	flex: 1;
+}
+
+.featured-video-col .desc-col{
+	padding-left: 1rem;
+}
+
+.up-next{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 1rem;
 }
