@@ -2,7 +2,7 @@
 Youtube Page Clone
 
 ## Authors:
-[Asha](https://github.com/Ashah15)
+[Asha](https://github.com/Ashah15) &
 [Micheals](https://github.com/MarvellousUbani)
 
 ### Live Project:
