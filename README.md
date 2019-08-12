@@ -10,7 +10,7 @@ Youtube Page Clone
 
 
 #### Link to the Assignment:
-theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video 
+[Click Here](https://theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video)
 
 
 ##### Project Screenshot
