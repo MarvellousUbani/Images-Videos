@@ -1,17 +1,17 @@
-# Images-Videos
-a replica of youtube
+# Project Title
+Youtube Page Clone
 
 ## Authors:
 [Asha](https://github.com/Ashah15)
 [Micheals](https://github.com/MarvellousUbani)
 
-### Link to the live Image-Video project:
-[Click Here](https://ashah15.github.io/Images-Videos/)
+### Live Project:
+[Click Here](https://marvellousubani.github.io/Images-Videos/)
 
 
-#### Link to the Embedding video and image:
+#### Link to the Assignment:
 theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video 
 
 
-##### Screenshot of the Image-Video project and its link
-![VideosImages](https://user-images.githubusercontent.com/25789605/61330511-706f2080-a828-11e9-9f43-7c0f06270a02.png)
+##### Project Screenshot
+![Youtube Clone](https://user-images.githubusercontent.com/17970203/62872988-761c3100-bd16-11e9-8ba1-abed308abe15.png)
